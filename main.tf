@@ -1,7 +1,7 @@
 module "scaffold" {
-  /*source    = "../terraform-module-scaffold/scaffold"*/
-  source = "C:/Users/vinaykumar/Source/repos/terraform-labs/terraform-labs/terraform-module-scaffold"
-}
+  /*source    = "../terraform-module-scaffold/scaffold" */
+  source = "github.com/chennavinay/terraform-module-scaffold"
+} 
 
 resource "azurerm_resource_group" "webapps" {
    name         = "webapps"
